@@ -2,12 +2,12 @@ import React from 'react';
 import "../HomePage/HomePage.scss";
 import bg from "../../Components/Assets/Images/bg.png";
 import SearchBar from '../../Components/SearchBar/SearchBar';
-import Navbar from '../../Components/Navbar/Navbar';
+import Layout from '../Layout/Layout';
 
 const HomePage = () => {
   return (
     <>
-    <Navbar/>
+     <Layout/>
     <div className='homePage'>
         <div className='text-container'>
             <div className='wrapper'>

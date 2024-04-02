@@ -3,14 +3,14 @@ import "../ListPage/ListPage.scss";
 import { listData } from '../../lib/dummydata';
 import Filter from '../../Components/Filter/Filter';
 import Card from '../../Components/Card/Card';
-import Navbar from "../../Components/Navbar/Navbar";
 import Map from '../../Components/Map/Map';
+import Layout from '../Layout/Layout';
 
 const ListPage = () => {
      const data = listData;
   return (
     <>
-    <Navbar/>
+    <Layout/>
     <div className='listPage'>
         <div className='list-container'>
         <div className='wrapper'>
