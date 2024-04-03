@@ -10,11 +10,10 @@ function App() {
     <div className="layout">
       <HashRouter>
         <Routes>
-          <Route path="/" element= {<HomePage/>}/>
-          <Route path="/list" element = {<ListPage/>}/>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/list" element={<ListPage />} />
           <Route path="/:id" element= {<SinglePage/>}/>
-          <Route path="/profile" element= {<ProfilePage/>}/>
-           
+          <Route path = "/profile" element = {<ProfilePage/>}/>
         </Routes>
       </HashRouter>
     </div>
